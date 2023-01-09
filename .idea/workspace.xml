@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82298007-f10e-4fd5-980a-e08c380d64a5" name="Changes" comment="" />
+    <list default="true" id="82298007-f10e-4fd5-980a-e08c380d64a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Target.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Interface" />
       </list>
     </option>
@@ -33,6 +40,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

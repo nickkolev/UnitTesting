@@ -1,7 +1,8 @@
 package rpg_lab;
 
-public interface Target {
+import java.util.Random;
 
+public interface Target {
     void takeAttack(int attackPoints);
 
     int getHealth();
@@ -9,4 +10,6 @@ public interface Target {
     int giveExperience();
 
     boolean isDead();
+
+    Weapon dropWeapon(Random rnd);
 }

@@ -1,8 +1,5 @@
 package rpg_lab;
 
-import java.util.Random;
-import rpg_lab.Axe;
-import rpg_lab.Dummy;
 
 public class Hero implements Weapon{
 
@@ -28,7 +25,6 @@ public class Hero implements Weapon{
         return this.weapon;
     }
 
-    @Override
     public void attack(Target target) {
         this.weapon.attack(target);
 
