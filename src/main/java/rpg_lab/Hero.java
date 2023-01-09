@@ -4,16 +4,16 @@ import java.util.Random;
 import rpg_lab.Axe;
 import rpg_lab.Dummy;
 
-public class Hero {
+public class Hero implements Weapon{
 
     private String name;
     private int experience;
-    private Axe weapon;
+    private Weapon weapon;
 
-    public Hero(String name) {
+    public Hero(String name, Weapon weapon) {
         this.name = name;
         this.experience = 0;
-        this.weapon = new Axe(10, 10);
+        this.weapon = weapon;
     }
 
     public String getName() {
@@ -24,11 +24,12 @@ public class Hero {
         return this.experience;
     }
 
-    public Axe getWeapon() {
+    public Weapon getWeapon() {
         return this.weapon;
     }
 
-    public void attack(Dummy target) {
+    @Override
+    public void attack(Target target) {
         this.weapon.attack(target);
 
         if (target.isDead()) {
