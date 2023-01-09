@@ -1,4 +1,4 @@
-package test.java.rpg_tests;
+package rpg_tests;
 
 import org.junit.Assert;
 import org.junit.Before;
