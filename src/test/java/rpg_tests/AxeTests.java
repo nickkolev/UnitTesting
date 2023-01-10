@@ -40,7 +40,7 @@ public class AxeTests {
         this.axe = new Axe(ATTACK, ZERO_DURABILITY);
         //Act
         axe.attack(dummy);
-
-
     }
 }
+
+

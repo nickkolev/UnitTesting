@@ -23,10 +23,8 @@ public class DummyTests {
     @Test
     public void testIfDummyLosesHealthOnAttack() {
         //Arrange
-
         //Act
         dummy.takeAttack(ATTACK);
-
         //Assert
         int expected = 5;
         int actual = dummy.getHealth();
@@ -36,19 +34,16 @@ public class DummyTests {
     @Test(expected = IllegalStateException.class)
     public void deadDummyCanNotBeAttacked() {
         //Arrange
-
         //Act
         dummy.takeAttack(ATTACK);
         dummy.takeAttack(ATTACK);
         dummy.takeAttack(ATTACK);
-
         //Assert
     }
 
     @Test
     public void deadDummyGivesXP() {
         //Arrange
-
         //Act
         dummy.takeAttack(ATTACK);
         dummy.takeAttack(ATTACK);
@@ -62,11 +57,14 @@ public class DummyTests {
     @Test(expected = IllegalStateException.class)
     public void aliveDummyDoesNotGiveXP() {
         //Arrange
-
         //Act
         dummy.takeAttack(ATTACK);
         dummy.giveExperience();
 
         //Assert
     }
+
 }
+
+
+
