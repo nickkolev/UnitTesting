@@ -26,7 +26,6 @@ public class AxeTests {
     @Test
     public void testIfWeaponLosesDurabilityOnAttack() {
         //Arrange
-
         //Act
         axe.attack(dummy);
         //Assert
@@ -39,8 +38,9 @@ public class AxeTests {
     public void testIfBrokenWeaponCantAttack() {
         //Arrange
         this.axe = new Axe(ATTACK, ZERO_DURABILITY);
-
         //Act
         axe.attack(dummy);
+
+
     }
 }
