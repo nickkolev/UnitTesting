@@ -25,6 +25,7 @@ public class Hero implements Weapon{
         return this.weapon;
     }
 
+
     public void attack(Target target) {
         this.weapon.attack(target);
 
@@ -33,3 +34,4 @@ public class Hero implements Weapon{
         }
     }
 }
+

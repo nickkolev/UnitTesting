@@ -8,3 +8,4 @@ public interface ItemStorage extends Iterable<Weapon>{
 
     Collection<Weapon> getWeapons();
 }
+
